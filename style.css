@@ -1,0 +1,152 @@
+
+ .main-container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-container {
+    width: 100%;
+    height: auto;
+    background: #fcf8f8;
+}
+
+.left-container h1 {
+    display: none;
+}
+
+.left-container h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family:'Fuzzy Bubbles', cursive;;
+}
+
+.img-11 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.img-12 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: -150px;
+}
+
+#image-one {
+    width: 400px;
+    height: auto;
+}
+
+.colors {
+    display: flex;
+    justify-content: space-around;
+}
+
+.colors>div {
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.colors #color-1 {
+    background: #0F0E0E;
+    color: white;
+}
+
+.colors #color-2 {
+    background: #434849;
+    color: white;
+}
+
+.colors #color-3 {
+    background: #510303;
+    color: white;
+}
+
+.colors #color-4 {
+    background: #AE2F1D;
+    color: white;
+}
+
+.right-container {
+    height: auto;
+    width: 100%;
+    background-color: black;
+}
+
+.right-container h1 {
+    display: none;
+}
+
+#mobile-title {
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle-1>h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #AE2F1D;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.subtitle-1>pre {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.josefin{
+    font-family:'Fuzzy Bubbles', cursive; ;
+}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@media screen and (min-width: 992px) {
+    .main-container {
+        flex-direction: row;
+    }
+
+    #mobile-title {
+        display: none;
+    }
+
+    .left-container {
+        width: 50%;
+    }
+
+    .left-container h1 {
+        display: flex;
+        justify-content: end;
+        font-size: 75PX;
+    }
+
+    .right-container {
+        width: 50%;
+    }
+
+    .right-container h1 {
+        display: flex;
+        justify-content: start;
+        color: white;
+        font-size: 75PX;
+    }
+}
